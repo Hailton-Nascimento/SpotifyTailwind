@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone Spotify Premium</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <!-- NAVEBAR -->
+    <header class="z-10">
+        <div class="flex bg-black w-full px-3 md:px-20 py-4">
+            <div class="container flex items-center mx-auto">
+                <div>
+                    <a href="index.html">
+                        <img src="img/spotify-logo.png" alt="Spotify" class="w-20 md:w-125px">
+                    </a>
+                </div>
+                <div class="flex justify-end flex-1 md:hidden text-white text-3xl">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="items-end flex-1 text-white font-bold hidden md:flex">
+                    <nav class="flex-1">
+                        <ul class="flex justify-end flex-1">
+                            <li class="px-4">
+                                <a href="#" class="hover:text-hoverspt text-sm">Premium</a>
+                            </li>
+                            <li class="px-4">
+                                <a href="#" class="hover:text-hoverspt text-sm">Ajuda</a>
+                            </li>
+                            <li class="px-4">
+                                <a href="#" class="hover:text-hoverspt text-sm">Baixar</a>
+                            </li>
+                            <li class="px-4">
+                                <span class="border-r border-white"></span>
+                            </li>
+                            <li class="px-4">
+                                <a href="#" class="hover:text-hoverspt text-sm">Inscrever-se</a>
+                            </li>
+                            <li>
+                                <a href="#" class="hover:text-hoverspt text-sm">Log In</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- CONTEUDO -->
+    <main>
+        <div class=" flex flex-col justify-start bg-blue-main text-white pt-14 px-4 md:px-20">
+            <h1 class="md:text-3xl text-1xl b-10 font-bold mb-5">Aproveite 1 mês grátis de Premium</h1>
+            <p class=" text-md md:text-lg mb-5 ">Depois, pague somente R$ 19,90/mês. Cancele quando quiser</p>
+            <div class="mb-10 z-0">
+                <a class="block md:inline-block bg-black text-white  text-center text-xs rounded-full px-10 py-3 mr-4 mb-4 max-w-2xl uppercase md:max-w-xs font-bold tracking-widest duration-500  transform hover:scale-110" href=" # ">Começar</a>
+                <a class="block md:inline-block border-2 text-white   text-center text-xs rounded-full px-10 py-3 mr-4 mb-4 max-w-2xl uppercase md:max-w-xs font-bold tracking-widest duration-500  transform hover:scale-110" href=" # ">Ver planos</a>
+
+            </div>
+            <p class=" text-xs md:text-xs mb-10 max-w-xl"><span class="underline">Sejeito a Termos e Condições.</span> O mês grátis não está disponível para usuários que já experimentaram o Premium.</p>
+        </div>
+
+        <div class=" flex flex-col justify-center text-center py-16 px-4 md:px-20  ">
+            <h1 class="font-bold text-4xl">Por que ser Premium?</h1>
+            <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-10">
+                <li class="flex flex-col justify-center items-center mx-5 mt-8">
+                    <div class="w-32 "><img src="img/01.png" alt="Modo Offline"></div>
+                    <div class="pt-6">
+                        <p class="font-bold text-sm p-1">Modo offline.</p>
+                        <p class="text-xs p-1">Ouça música onde estiver.</p>
+                    </div>
+                </li>
+                <li class="flex flex-col justify-center items-center mx-5 mt-8  ">
+                    <div class="w-32 "><img src="img/02.png" alt="sem anúncios"></div>
+                    <div class="pt-6">
+                        <p class="font-bold text-sm p-1">Sem anúncios.</p>
+                        <p class="text-xs p-1">Ouça música, sem parar.</p>
+                    </div>
+                </li>
+                <li class="flex flex-col justify-center items-center mx-5 mt-8 ">
+                    <div class="w-32 "><img src="img/03.png" alt="ouça o que quiser"></div>
+                    <div class="pt-6">
+                        <p class="font-bold text-sm p-1">Ouça o que quiser.</p>
+                        <p class="text-xs p-1">Mesmo no celular ou no tablet.</p>
+                    </div>
+                </li>
+                <li class="flex flex-col justify-center items-center mx-5 mt-8 ">
+                    <div class="w-32 "><img src="img/04.png" alt="pule faixa"></div>
+                    <div class="pt-6">
+                        <p class="font-bold text-sm p-1">Troque de música o quanto quiser.</p>
+                        <p class="text-xs p-1">Pule quando quiser.</p>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+
+        <div class=" flex flex-col justify-center text-center py-16 px-4 md:px-20 bg-gray-200">
+            <h2 class="font-bold text-4xl ">Escolha seu plano Premium?</h1>
+                <h3 class="m-2">Ouça sem limites no seu celular, alto-falante e em outros dispositivos.</h3>
+
+                <ul class="flex justify-center m-3">
+                    <li class="w-7">
+                        <div> <img src="img/visa.svg" class=" "></div>
+                    </li>
+                    <li class="w-7">
+                        <div> <img src="img/mastercard.svg" class="mastercard"></div>
+                    </li>
+                    <li class="w-7">
+                        <div> <img src="img/amex.svg" class="American Exepress "></div>
+                    </li>
+                    <li class="w-7">
+                        <div> <img src="img/elo.svg" class="elo "></div>
+                    </li>
+                    <li class="w-7">
+                        <div> <img src="img/hiper.svg" class=""></div>
+                    </li>
+                </ul>
+
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-x-4 py-8 ">
+
+
+                    <ul class="text-left inline md:block bg-white shadow  border-b rounded-t-md pt-4 px-4 text-xs ">
+                        <li class="font-bold bg-blue-main mb-2 inline-block py-1 px-2 rounded-sm text-white">1 mês grátis ao assinar
+                        </li>
+                        <li class="font-bold border-blue-main border mb-2 inline-block py-1 px-2 rounded-sm text-blue-main">
+                            Pagamento único disponível</li>
+
+                        <li>
+                            <h3 class="font-bold mb-2 text-xl">Individual</h3>
+                        </li>
+                        <li>
+                            <p class="text-xs mb-1">R$&nbsp;19,90/mês após o período da oferta</p>
+                        </li>
+                        <li>
+                            <p class="text-xs mb-1">1 conta</p>
+                        </li>
+
+                    </ul>
+
+                    <ul class="text-left inline md:block bg-white shadow  border-b rounded-t-md pt-4 px-4 text-xs ">
+                        <li class="font-bold bg-blue-main mb-2 inline-block py-1 px-2 rounded-sm text-white">1 mês grátis ao assinar
+                        </li>
+                        <li class="font-bold border-blue-main border mb-2 inline-block py-1 px-2 rounded-sm text-blue-main">
+                            Pagamento único disponível</li>
+
+                        <li>
+                            <h3 class="font-bold mb-2 text-xl">Duo</h3>
+                        </li>
+                        <li>
+                            <p class="text-xs mb-1">R$&nbsp;24,90/mês após o período da oferta</p>
+                        </li>
+                        <li>
+                            <p class="text-xs mb-1">2 contas</p>
+                        </li>
+
+                    </ul>
+
+                    <ul class="text-left inline md:block bg-white shadow border-b rounded-t-md pt-4 px-4 text-xs ">
+                        <li class="font-bold bg-blue-main mb-2 inline-block py-1 px-2 rounded-sm text-white">1 mês grátis ao assinar
+                        </li>
+                        <li class="font-bold border-blue-main border mb-2 inline-block py-1 px-2 rounded-sm text-blue-main">
+                            Pagamento único disponível</li>
+
+                        <li>
+                            <h3 class="font-bold text-xl mb-2">Família</h3>
+                        </li>
+                        <li>
+                            <p class="text-xs mb-1">R$&nbsp;34,90/mês após o período da oferta</p>
+                        </li>
+                        <li>
+                            <p class="text-xs mb-1">Até 6 contas</p>
+                        </li>
+
+                    </ul>
+
+                    <ul class="text-left inline md:block bg-white shadow border-b rounded-t-md pt-4 px-4 text-xs ">
+                        <li class="font-bold bg-blue-main mb-2 inline-block py-1 px-2 rounded-sm text-white">1 mês grátis ao assinar
+                        </li>
+
+                        <li>
+                            <h3 class="font-bold mb-2 text-xl">Universitário</h3>
+                        </li>
+                        <li>
+                            <p class="text-xs mb-1">R$&nbsp;9,90/mês após o período da oferta</p>
+                        </li>
+                        <li>
+                            <p class="text-xs mb-1">1 conta</p>
+                        </li>
+
+                    </ul>
+
+
+                    <ul class="md:block bg-white shadow pb-2 px-4">
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Curta músicas sem anúncios</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Ouça em qualquer lugar — até no modo offline</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Escolha a música que quer ouvir</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Faça um plano pré-pago ou uma assinatura</p>
+                        </li>
+
+                    </ul>
+
+                    <ul class="md:block bg-white shadow pb-2 px-4">
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">2 contas Premium para um casal que mora junto</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Duo Mix: uma playlist só pra vocês, atualizada regularmente com músicas que os dois gostam</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4 ">Ouça sem anúncios, no modo offline e sob demanda</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Faça um plano pré-pago ou uma assinatura</p>
+                        </li>
+
+                    </ul>
+
+                    <ul class="md:block bg-white shadow pb-2 px-4">
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">6 contas Premium para familiares que moram no mesmo endereço</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Family Mix: uma playlist pra família, atualizada regularmente com músicas que todo mundo gosta</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Bloqueie músicas com conteúdo explícito</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Ouça sem anúncios, no modo offline e sob demanda</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Spotify Kids: um aplicativo separado, feito especialmente para crianças</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Faça um plano pré-pago ou uma assinatura</p>
+                        </li>
+
+                    </ul>
+
+                    <ul class="md:block bg-white shadow pb-2 px-4">
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Desconto especial para estudantes universitários que tenham direito à oferta</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Curta música sem anúncios</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Ouça em qualquer lugar — até no modo offline</p>
+                        </li>
+                        <li class=" flex my-1 ">
+                            <svg class="w-7 h-7 mr-1 ">
+                                    <polyline points="3.32 10.86 8.9 18.4 20.99 5.26 " fill="none " stroke="#181818 ">
+                                    </polyline>
+                                </svg>
+                            <p class=" text-xs text-left my-auto max-w-3/4">Escolha a música que quer ouvir</p>
+                        </li>
+
+                    </ul>
+
+
+
+
+
+
+
+
+                    <div class=" flex flex-col  bg-white shadow rounded-b-md pt-5 px-4">
+
+                        <a class="bg-black self-center text-white text-xs rounded-full px-10 py-3 uppercase font-bold tracking-widest duration-500 transform hover:scale-110 mb-4" href=" # ">Começar</a>
+
+                        <p class="text-xs font-thin text-gray-500 mb-10 max-w-xl text-left"><span class="underline">Sejeito a Termos e Condições.</span> O mês grátis não está disponível para usuários que já experimentaram o Premium.</p>
+
+                    </div>
+
+                    <div class=" flex flex-col  bg-white shadow rounded-b-md pt-5 px-4">
+
+                        <a class="bg-black self-center text-white text-xs rounded-full px-10 py-3 uppercase font-bold tracking-widest duration-500 transform hover:scale-110 mb-4" href=" # ">Começar</a>
+
+                        <p class="text-xs font-thin text-gray-500 mb-10 max-w-xl text-left"><span class="underline">Sejeito a Termos e Condições.</span> O mês grátis não está disponível para usuários que já experimentaram o Premium.</p>
+
+                    </div>
+
+                    <div class=" flex flex-col  bg-white shadow rounded-b-md pt-5 px-4">
+
+                        <a class="bg-black self-center text-white text-xs rounded-full px-10 py-3 uppercase font-bold tracking-widest duration-500 transform hover:scale-110 mb-4" href=" # ">Começar</a>
+
+                        <p class="text-xs font-thin text-gray-500 mb-10 max-w-xl text-left"><span class="underline">Sejeito a Termos e Condições.</span> O mês grátis não está disponível para usuários que já experimentaram o Premium.</p>
+
+                    </div>
+
+                    <div class=" flex flex-col  bg-white shadow rounded-b-md pt-5 px-4">
+
+                        <a class="bg-black self-center text-white text-xs rounded-full px-10 py-3 uppercase font-bold tracking-widest duration-500 transform hover:scale-110 mb-4" href=" # ">Começar</a>
+
+                        <p class="text-xs font-thin text-gray-500 mb-10 max-w-xl text-left">Oferta disponível somente para estudantes de instituições de ensino superior credenciadas. O mês grátis não está disponível para usuários que já experimentaram o Premium. <span class="underline">Sejeito a Termos e Condições</span>                            da oferta do Spotify de desconto para universitários.</p>
+
+                    </div>
+
+
+
+                </div>
+
+        </div>
+
+
+
+
+
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <div class=" grid grid-cols-1 md:grid-cols-6 bg-black text-white p-4 md:p-20 ">
+            <div class="md:col-span-1 pt-10 md:pt-0 ">
+                <a href="index.html">
+                    <img class="w-20 md:w-125px " src=" img/logo.png " alt=" Spotify ">
+                </a>
+            </div>
+
+            <div class="md:col-span-1 pt-10 md:pt-4 ">
+                <h3 class="text-gray-500 uppercase font-bold text-xs tracking-widest mb-5 ">Empresa</h3>
+                <ul>
+                    <li class="mb-5 ">
+                        <a href=" # ">Sobre</a>
+                    </li>
+                    <li class="mb-5 ">
+                        <a href=" # ">Empregos</a>
+                    </li>
+                    <li class="mb-5 ">
+                        <a href=" # ">For the Record</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-1 pt-10 md:pt-4 ">
+                <h3 class="text-gray-500 uppercase font-bold text-xs tracking-widest mb-5 ">Comunidades</h3>
+                <ul>
+                    <li class="mb-5 ">
+                        <a href=" # ">Apara Artistas</a>
+                    </li>
+                    <li class="mb-5 ">
+                        <a href=" # ">Desenvovedores</a>
+                    </li>
+                    <li class="mb-5 ">
+                        <a href=" # ">Publicidade</a>
+                    </li>
+                    <li class="mb-5 ">
+                        <a href=" # ">Investidores</a>
+                    </li>
+                    <li class="mb-5 ">
+                        <a href=" # ">Fornecedores</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-2 pt-10 md:pt-4 ">
+                <h3 class="text-gray-500 uppercase font-bold text-xs tracking-widest mb-5 ">Links Úteis</h3>
+                <ul>
+                    <li class="mb-5 ">
+                        <a href=" # ">Ajuda</a>
+                    </li>
+                    <li class="mb-5 ">
+                        <a href=" # ">Player da Web</a>
+                    </li>
+                    <li class="mb-5 ">
+                        <a href=" # ">Aplicativo móvel grátis</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-1 pt-10 md:pt-4 ">
+                <ul class="flex md:justify-end ">
+                    <li class="flex items-center justify-center text-2xl bg-gray-900 w-12 h-12 rounded-full hover:text-green-main mx-2 ">
+                        <a href=" # "><i class=" fab fa-instagram "></i></a>
+                    </li>
+                    <li class="flex items-center justify-center text-2xl bg-gray-900 w-12 h-12 rounded-full hover:text-green-main mx-2 ">
+                        <a href=" # "><i class=" fab fa-twitter "></i></a>
+                    </li>
+                    <li class="flex items-center justify-center text-2xl bg-gray-900 w-12 h-12 rounded-full hover:text-green-main ">
+                        <a href=" # "><i class=" fab fa-facebook "></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="md:col-span-4 mt-20 ">
+                <ul>
+                    <li class="inline-block text-xs text-gray-600 mr-6 ">
+                        <a href=" # ">Legal</a>
+                    </li>
+                    <li class="inline-block text-xs text-gray-600 mr-6 ">
+                        <a href=" # ">Centro de Privacidade</a>
+                    </li>
+                    <li class="inline-block text-xs text-gray-600 mr-6 ">
+                        <a href=" # ">Política de Privacidade</a>
+                    </li>
+                    <li class="inline-block text-xs text-gray-600 mr-6 ">
+                        <a href=" # ">Cookeis</a>
+                    </li>
+                    <li class="inline-block text-xs text-gray-600 mr-6 ">
+                        <a href=" # ">Sobre anúncios</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class=" md:col-span-2 mt-20 flex justify-end items-center ">
+                <a href=" https://www.linkedin.com/in/hailton-nascimento/ " target=”_blank” class="flex items-center ">
+                    <p class=" flex justify-end text-gray-500 text-xs ">&copy;Hailton Nascimento - 2021</p>
+                    <img src="img/Hatilon.png " alt=" Criador " class=" ml-2 rounded-full w-10 h-10 ">
+
+            </div>
+        </div>
+
+
+    </footer>
+
+</body>
+
+</html>
